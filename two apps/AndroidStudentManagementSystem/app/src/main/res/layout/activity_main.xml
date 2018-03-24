@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout1"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:paddingTop="@dimen/padding"
+    android:paddingBottom="@dimen/padding"
+
+    tools:context="com.androidstudentmanagementsystem.k.androidstudentmanagementsystem.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/teac" />
+
+    <EditText
+            android:id="@+id/roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rollnum"
+
+            android:inputType="number">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name"
+
+            />
+
+        <EditText
+            android:id="@+id/mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/mark"
+            android:inputType="number"
+
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            >
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:id="@+id/add"
+                android:text="Add" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:id="@+id/delete"
+                android:text="Delete" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:id="@+id/modify"
+                android:text="Modify" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:id="@+id/view"
+                android:text="View" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.74">
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:id="@+id/viewall"
+                android:text="View All" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:id="@+id/showbtn"
+                android:text="Developed" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

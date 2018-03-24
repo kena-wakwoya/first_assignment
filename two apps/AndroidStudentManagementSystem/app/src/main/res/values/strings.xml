@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidStudentManagementSystem</string>
+    <string name="rollnum">Enter Roll Number</string>
+    <string name="name">Enter your name</string>
+    <string name="mark">Enter your name</string>
+    <string name="help">Help Teachers!!</string>
+</resources>
